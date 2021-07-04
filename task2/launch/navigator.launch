@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find task2)/launch/turtlebot3_navigation.launch" />
+  <node pkg="gmapping" type="slam_gmapping" name="turtlebot3_slam_gmapping" output="screen" />
+</launch>
